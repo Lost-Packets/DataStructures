@@ -1,6 +1,4 @@
-// 159201 assignment 2
 // Nathan Ploos Van Amstel
-// Student ID: 20010307
 
 #include <cstdlib>
 #include <fstream>
