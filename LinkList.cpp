@@ -220,25 +220,25 @@ void copy_matrix(Matrix *&matrix_result, Matrix *&matrix_copy){
 }
 
 int main(int argc, char** argv){
-	if(argc!=3) {printf("needs two matrices \n"); exit(0);}
-	Node *A=NULL;
-	Node *B=NULL;
-	Matrix *matrix_one=NULL;
-	Matrix *matrix_two=NULL;
-	Matrix *matrix_result=NULL;
-    Matrix *matrix_out=NULL;
+   if(argc!=3) {printf("needs two matrices \n"); exit(0);}
+   Node *A=NULL;
+   Node *B=NULL;
+   Matrix *matrix_one=NULL;
+   Matrix *matrix_two=NULL;
+   Matrix *matrix_result=NULL;
+   Matrix *matrix_out=NULL;
 
     read_matrix(A, matrix_one, argv[1]);
     cout<<"Matrix 1: ";
-	printLL(A);
+    printLL(A);
     cout<<endl;
-	print_matrix(matrix_one, A);
+    print_matrix(matrix_one, A);
 
-	read_matrix(B, matrix_two, argv[2]);
+    read_matrix(B, matrix_two, argv[2]);
     cout<<"Matrix 2: ";
-	printLL(B);
+    printLL(B);
     cout<<endl;
-	print_matrix(matrix_two, B);
+    print_matrix(matrix_two, B);
 
     add_matrix(matrix_one,matrix_two,matrix_result);
     copy_matrix(matrix_result, matrix_out); // Need to copy matrix result into new list as Matrix result gets altered.
