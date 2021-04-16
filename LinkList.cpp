@@ -1,6 +1,4 @@
-// 159201 assignment 1
 // Nathan Ploos Van Amstel
-// Student ID: 20010307
 
 #include <stdio.h>
 #include <stdlib.h>
