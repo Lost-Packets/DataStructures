@@ -1,7 +1,4 @@
-
-// 159201 assignment 4
 // Nathan Ploos Van Amstel
-// Student ID: 20010307
 
 #include <cstdlib>
 #include <iostream>
@@ -83,7 +80,6 @@ bool List<T>::NextItem(T &item) {
     return true;
 }
 
-/////// PART B
 class BigNumber {
 private:
     List<int> L1;
@@ -148,7 +144,6 @@ void BigNumber::Reverse()
     this->L1.Reverse();
 }
 
-/////// PART C
 BigNumber B1,B2,RES;
 
 int main (int argc, char ** argv) {
