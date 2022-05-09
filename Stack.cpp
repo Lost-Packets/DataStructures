@@ -60,7 +60,6 @@ bool Stack::isEmpty() {
   return false;
 }
 
-/* implement your stack here */
 
 int main(int argc, char **argv) { // get arguments from command line, i.e., yourexec filename
   int number, i;
